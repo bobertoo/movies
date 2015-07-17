@@ -1,6 +1,7 @@
+# Here I import the fresh_tomatoes website generator and the media.py that is the movie constructor and methods
 import fresh_tomatoes
 import media
-
+# Here are the instances of each movie with their title, storyline, poster and trailer
 evil_dead = media.Movie("Evil Dead",
                         "A story of a haunted house",
                         "https://upload.wikimedia.org/wikipedia/en/7/7d/Evil_dead_ver1.jpg",
@@ -31,5 +32,7 @@ drag_me_to_hell = media.Movie("Drag Me to Hell",
 			"http://ia.media-imdb.com/images/M/MV5BMTYzOTc2NDIwMF5BMl5BanBnXkFtZTcwNzAxMTM2Mg@@._V1_SX640_SY720_.jpg",
 			"https://www.youtube.com/watch?v=BUZTybLlWKI")
 
+# this array is what the fresh_tomatoes script needs for input
 movies = [evil_dead, evil_dead_2, dead_alive, army_of_darkness,bubba_ho_tep, drag_me_to_hell]
+# this passes the movies array to fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
