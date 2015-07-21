@@ -15,7 +15,7 @@ evil_dead_2 = media.Movie("Evil Dead 2",
 
 dead_alive = media.Movie("Dead Alive",
                          "Bitten by rat-monkey",
-                         "http://wrongsideoftheart.com/wp-content/gallery/posters-b/braindead_poster_02.jpg",
+                         "http://wrongsideoftheart.com/wp-content/gallery/posters-b/braindead_poster_02.jpg",  #  noqa
                          "https://www.youtube.com/watch?v=O8LIug1cP04")
 
 army_of_darkness = media.Movie("Army of Darkness",
@@ -25,12 +25,12 @@ army_of_darkness = media.Movie("Army of Darkness",
 
 bubba_ho_tep = media.Movie("Bubba Ho-Tep",
                            "Spooks from the tomb to the old folks home",
-                           "http://www.schlechtergeschmack.net/wp-content/uploads/2014/05/bubba_hotep_cover.jpg",
+                           "http://www.schlechtergeschmack.net/wp-content/uploads/2014/05/bubba_hotep_cover.jpg",  #  noqa
                            "https://www.youtube.com/watch?v=X7Qo74_L3vo")
 
 drag_me_to_hell = media.Movie("Drag Me to Hell",
                               "Spooky curse from spooky old lady",
-                              "http://ia.media-imdb.com/images/M/MV5BMTYzOTc2NDIwMF5BMl5BanBnXkFtZTcwNzAxMTM2Mg@@._V1_SX640_SY720_.jpg",
+                              "http://ia.media-imdb.com/images/M/MV5BMTYzOTc2NDIwMF5BMl5BanBnXkFtZTcwNzAxMTM2Mg@@._V1_SX640_SY720_.jpg",  #  noqa
                               "https://www.youtube.com/watch?v=BUZTybLlWKI")
 
 # this array is what the fresh_tomatoes script needs for input
@@ -38,3 +38,4 @@ movies = [evil_dead, evil_dead_2, dead_alive, army_of_darkness, bubba_ho_tep, dr
 
 # this passes the movies array to fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
+
