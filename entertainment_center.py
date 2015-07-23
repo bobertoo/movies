@@ -49,7 +49,8 @@ drag_me_to_hell = media.Movie("Drag Me to Hell",
                               "92%")
 
 # this array is what the fresh_tomatoes script needs for input
-movies = [evil_dead, evil_dead_2, dead_alive, army_of_darkness, bubba_ho_tep, drag_me_to_hell]
+movies = [evil_dead, evil_dead_2, dead_alive,
+          army_of_darkness, bubba_ho_tep, drag_me_to_hell]
 
 # this passes the movies array to fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
