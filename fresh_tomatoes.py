@@ -6,7 +6,7 @@ import re
 main_page_head = '''
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Spooky Tomatoes!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -37,8 +37,8 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
-            cursor: pointer;
+            background-image: url(http://33.media.tumblr.com/a557283e024366ac783052292412e352/tumblr_n76gxjP6ON1qizhaoo1_1280.gif);
+            cursor: help;
         }
         .scale-media {
             padding-bottom: 56.25%;
