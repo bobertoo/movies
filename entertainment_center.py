@@ -15,7 +15,7 @@ evil_dead_2 = media.Movie("Evil Dead 2",
                           "Revenge of a story of a haunted house",
                           "https://upload.wikimedia.org/wikipedia/en/6/6d/Evil_Dead_II_poster.jpg",  #  noqa
                           "https://www.youtube.com/watch?v=w6mEiJRiXqc",
-                          "Bruce Campbell"
+                          "Bruce Campbell",
                           "98%")
 
 dead_alive = media.Movie("Dead Alive",
