@@ -5,10 +5,10 @@ import webbrowser
 #  setting up movie class
 class Movie():
 
-#  this is the constructor for a movie object
+    #  this is the constructor for a movie object
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube,
-		 main_actor, rotten_tomatoes_rating):
+                 main_actor, rotten_tomatoes_rating):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
